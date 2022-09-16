@@ -1,7 +1,8 @@
 # .NET-on-the-Web
 :heavy_check_mark:
-[x] First thing first! We learned how to link these pages in .Net Web application and show them with the view in our browser. 
-[x] The next step I made three classes in my program: Students, Teachers and Clasrooms.
+First thing first! We learned how to link these pages in .Net Web application and show them with the view in our browser. 
+:heavy_check_mark:
+The next step I made three classes in my program: Students, Teachers and Clasrooms.
 ```js
 namespace NetOnTheWeb.Models;
 public class Student
@@ -19,7 +20,7 @@ public class Student
     }
 }
 ```
-[x] After that I imported those classes to the cshtml.cs file to make new objects deriving from those classes. 
+:heavy_check_mark: After that I imported those classes to the cshtml.cs file to make new objects deriving from those classes. 
 ```js
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using NetOnTheWeb.Models;
@@ -39,7 +40,7 @@ namespace NetOnTheWeb.Pages
     }
 }
 ```
-[x] Then we made sure we could view everything on our page by adding the Model to the View and made a list of all Students/Teachers and/or Classrooms.
+:heavy_check_mark: Then we made sure we could view everything on our page by adding the Model to the View and made a list of all Students/Teachers and/or Classrooms.
 ```js
 @page
 @model StudentsModel
@@ -70,6 +71,6 @@ namespace NetOnTheWeb.Pages
 </ul>
 
 ```
-[x] At last we made the routing complete in our program in our Layout.cshtml file and we got the following:
+:heavy_check_mark: At last we made the routing complete in our program in our Layout.cshtml file and we got the following:
 
 ![Students](Students.JPG)
