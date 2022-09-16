@@ -72,4 +72,4 @@ Then we made sure we could view everything on our page by adding the Model to th
 ```
 At last we made the routing complete in our program in our Layout.cshtml file and we got the following:
 
-![Students](Students.JPG)
+![Students](images\Students.JPG)
