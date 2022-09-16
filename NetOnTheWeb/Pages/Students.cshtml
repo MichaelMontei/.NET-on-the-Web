@@ -1,0 +1,27 @@
+﻿@page
+@model StudentsModel
+@{
+}
+<h1>Students Page</h1>
+<p>@Model.Message the time is @DateTime.Now</p>
+<br/>
+
+<h3>Our students List: </h3>
+
+<ul>
+    <li>
+        <p>Name: @Model.Michael._name, Id: @Model.Michael._id, ClassID: @Model.Michael._classId</p>
+    </li>
+    <li>
+        <p>Name: @Model.Joske._name, Id: @Model.Joske._id, ClassID: @Model.Joske._classId</p>
+    </li>
+    <li>
+        <p>Name: @Model.Franske._name, Id: @Model.Franske._id, ClassID: @Model.Franske._classId</p>
+    </li>
+    <li>
+        <p>Name: @Model.Louike._name, Id: @Model.Louike._id, ClassID: @Model.Louike._classId</p>
+    </li>
+    <li>
+        <p>Name: @Model.Jefke._name, Id: @Model.Jefke._id, ClassID: @Model.Jefke._classId</p>
+    </li>
+</ul>

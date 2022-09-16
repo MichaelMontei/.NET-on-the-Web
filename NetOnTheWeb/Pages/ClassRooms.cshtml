@@ -1,0 +1,22 @@
+﻿@page
+@model ClassRoomModel
+@{
+}
+<h1>Classroom Page</h1>
+<p>@Model.Message the time is @DateTime.Now</p>
+<br/>
+
+<h3>Our Classrooms: </h3>
+
+<ul>
+    <li>
+        <p>Name: @Model.Apollo._name, Id: @Model.Apollo._id, ClassID: @Model.Apollo._classId</p>
+    </li>
+    <li>
+        <p>Name: @Model.Neptune._name, Id: @Model.Neptune._id, ClassID: @Model.Neptune._classId</p>
+    </li>
+    <li>
+        <p>Name: @Model.Saturn._name, Id: @Model.Saturn._id, ClassID: @Model.Saturn._classId</p>
+    </li>
+    
+</ul>
